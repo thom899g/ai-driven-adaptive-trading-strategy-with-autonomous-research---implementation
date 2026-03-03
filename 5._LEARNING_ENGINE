@@ -1,0 +1,18 @@
+- **Feedback Loop Manager**: Strategy performance tracking
+- **Meta-Learning Module**: Cross-strategy pattern recognition
+- **Adaptation Controller**: Parameter adjustment based on regime shifts
+
+## Data Flow Architecture
+1. Market Data → Research Engine → Signal Generation
+2. Signals → Strategy Generator → Trading Hypothesis
+3. Hypothesis → Backtesting Engine → Performance Metrics
+4. Validated Strategy → Execution Engine → Live Trading
+5. Results → Learning Engine → System Adaptation
+
+## Technology Stack
+- **Core**: Python 3.11+ with asyncio for concurrency
+- **Database**: Firebase Firestore (primary state store)
+- **ML**: scikit-learn, XGBoost, LightGBM
+- **Data Processing**: pandas, numpy, polars
+- **APIs**: ccxt (exchanges), requests (news/sentiment)
+- **Logging**: Structured JSON logging with Elasticsearch format
